@@ -1,0 +1,347 @@
+.u-section-1 {
+    background-image: none;
+  }
+  
+  .u-section-1 .u-sheet-1 {
+    min-height: 715px;
+  }
+  
+  .u-section-1 .u-shape-1 {
+    width: 194px;
+    height: 625px;
+    margin: 45px auto 0 112px;
+    animation-duration: 2000ms;
+  }
+  
+  .u-section-1 .u-image-1 {
+    width: 438px;
+    height: 380px;
+    margin: -503px auto 0 23px;
+    animation-duration: 2000ms;
+  }
+  
+  .u-section-1 .u-form-1 {
+    height: 560px;
+    background-image: none;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+    margin: -474px 45px 81px 506px;
+    animation-duration: 2000ms;
+  }
+  .u-section-1 .u-text-1{
+      font-size: 2.4rem;
+      text-align: center;
+      width: 100%;
+  }
+  .u-section-1 .u-label-1 {
+    font-size: 0.875rem;
+  }
+  
+  .u-section-1 .u-label-2 {
+    font-size: 0.875rem;
+  }
+  
+  .u-section-1 .u-form-group-3 {
+    margin-left: 0;
+  }
+  
+  .u-section-1 .u-label-3 {
+    font-size: 0.875rem;
+  }
+  
+  .u-section-1 .u-form-group-4 {
+    margin-left: 0;
+  }
+  
+  .u-section-1 .u-label-4 {
+    font-size: 0.875rem;
+  }
+  
+  .u-section-1 .u-form-group-5 {
+    margin-left: 0;
+  }
+  
+  .u-section-1 .u-label-5 {
+    font-size: 0.875rem;
+  }
+  
+  .u-section-1 .u-btn-1 {
+    background-image: none;
+    border-style: none;
+    box-shadow: 0 -2px 8px 0 rgba(128,128,128,1);
+  }
+  
+  @media (max-width: 1199px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 734px;
+    }
+  
+    .u-section-1 .u-shape-1 {
+      margin-left: 83px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      margin-left: 11px;
+    }
+  
+    .u-section-1 .u-form-1 {
+      height: 556px;
+      margin: -468px 0 60px 458px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 673px;
+    }
+  
+    .u-section-1 .u-shape-1 {
+      width: 111px;
+      height: 539px;
+      margin-top: 67px;
+      margin-left: 43px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      width: 267px;
+      margin-top: -451px;
+      margin-left: 12px;
+    }
+  
+    .u-section-1 .u-form-1 {
+      margin-right: 12px;
+      margin-bottom: 50px;
+      margin-left: 289px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 971px;
+    }
+  
+    .u-section-1 .u-shape-1 {
+      width: 212px;
+      margin-top: 15px;
+      margin-left: 12px;
+    }
+  
+    .u-section-1 .u-image-1 {
+      width: 452px;
+      height: 379px;
+      margin-top: -474px;
+      margin-left: 0;
+    }
+  
+    .u-section-1 .u-form-1 {
+      margin: -84px 0 40px 76px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-1 .u-sheet-1 {
+      min-height: 685px;
+    }
+  
+    .u-section-1 .u-shape-1 {
+      height: 644px;
+      margin-top: 11px;
+      margin-left: auto;
+    }
+  
+    .u-section-1 .u-image-1 {
+      height: 285px;
+      margin-right: initial;
+      margin-left: initial;
+      width: auto;
+    }
+  
+    .u-section-1 .u-form-1 {
+      margin-top: -606px;
+      margin-bottom: 60px;
+      margin-right: initial;
+      margin-left: initial;
+    }
+  }
+
+
+
+  /*-------------input box animation----------------*/
+.name input,
+.name label {
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  margin-top: 20px;
+}
+.name input {
+	width: 100%;
+	padding: .5em .5em .5em 3.5em;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+.name label {
+	position: absolute;
+    top: 8.7em;
+	left: 1.9em;
+	color: rgb(0, 0, 0);
+	line-height: 1;
+}
+.name input:focus {
+	padding-left: .5em;
+}
+.name input:focus + label {
+	top: 6.5em;
+}
+
+.email input,
+.email label {
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  margin-top: 20px;
+}
+.email input {
+	width: 100%;
+	padding: .5em .5em .5em 3.5em;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+.email label {
+	position: absolute;
+	top: 13.7em;
+	left:1.9em;
+	color: rgb(0, 0, 0);
+	line-height: 1;
+}
+.email input:focus {
+	padding-left: .5em;
+}
+.email input:focus + label {
+	top: 11.7em;
+}
+
+.contact input,
+.contact label {
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  margin-top: 20px;
+}
+.contact input {
+	width: 100%;
+	padding: .5em .5em .5em 3.5em;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+.contact label {
+	position: absolute;
+	top: 19.2em;
+	left: 1.9em;
+	color: rgb(0, 0, 0);
+	line-height: 1;
+}
+.contact input:focus {
+	padding-left: .5em;
+}
+.contact input:focus + label {
+	top: 17.1em;
+}
+
+
+.referal-number input,
+.referal-number label {
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  margin-top: 20px;
+}
+.referal-number input {
+	width: 100%;
+	padding: .5em .5em .5em 3.5em;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+.referal-number label {
+	position: absolute;
+	top: 24.7em;
+	left: 1.9em;
+	color: rgb(0, 0, 0);
+	line-height: 1;
+}
+.referal-number input:focus {
+	padding-left: .5em;
+}
+.referal-number input:focus + label {
+	top: 22.6em;
+}
+
+
+.coupon-code input,
+.coupon-code label {
+	-webkit-transition: all .2s;
+	transition: all .2s;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  margin-top: 20px;
+}
+.coupon-code input {
+	width: 100%;
+	padding: .5em .5em .5em 3.5em;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #333;
+}
+.coupon-code label {
+	position: absolute;
+	top: 29.7em;
+	left: 1.9em;
+	color: rgb(0, 0, 0);
+	line-height: 1;
+}
+.coupon-code input:focus {
+	padding-left: .5em;
+}
+.coupon-code input:focus + label {
+	top: 27.9em;
+}
+
+
+
